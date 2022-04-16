@@ -139,7 +139,7 @@ public class Calculator {
                 }
             } else if (Integer.valueOf(result) > 10 && Integer.valueOf(result) < 21) {
                 if (Integer.valueOf(result) != 20) {
-                    result = romanInt.get(10) + arabicToRoman(lastDigit(Integer.valueOf(result)));
+                    result = romanNum.get(10) + arabicToRoman(lastDigit(Integer.valueOf(result)));
                 } else {
                     result = romanNum.get(20);
                 }
